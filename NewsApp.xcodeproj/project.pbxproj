@@ -13,6 +13,8 @@
 		023DDD18294C82870061244B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023DDD16294C82870061244B /* Main.storyboard */; };
 		023DDD1A294C828C0061244B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 023DDD19294C828C0061244B /* Assets.xcassets */; };
 		023DDD1D294C828C0061244B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 023DDD1B294C828C0061244B /* LaunchScreen.storyboard */; };
+		023DDD25294C85290061244B /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023DDD24294C85290061244B /* APICaller.swift */; };
+		023DDD27294CAB190061244B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023DDD26294CAB180061244B /* NewsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		023DDD19294C828C0061244B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		023DDD1C294C828C0061244B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		023DDD1E294C828C0061244B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		023DDD24294C85290061244B /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		023DDD26294CAB180061244B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				023DDD19294C828C0061244B /* Assets.xcassets */,
 				023DDD1B294C828C0061244B /* LaunchScreen.storyboard */,
 				023DDD1E294C828C0061244B /* Info.plist */,
+				023DDD24294C85290061244B /* APICaller.swift */,
+				023DDD26294CAB180061244B /* NewsTableViewCell.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			files = (
 				023DDD15294C82870061244B /* ViewController.swift in Sources */,
 				023DDD11294C82870061244B /* AppDelegate.swift in Sources */,
+				023DDD27294CAB190061244B /* NewsTableViewCell.swift in Sources */,
 				023DDD13294C82870061244B /* SceneDelegate.swift in Sources */,
+				023DDD25294C85290061244B /* APICaller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
